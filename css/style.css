@@ -298,7 +298,8 @@ footer .row {
 	    margin: 0 0 20px;
 	}
 	.owl-nav {
-	    top: -50px;
+	    top: -44px;
+        width: 44px;
 	}
 	section#recipes, section#menus {
 	    padding: 12px 0;
