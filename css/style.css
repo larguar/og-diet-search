@@ -228,17 +228,19 @@ section#content {
     background-size: cover!important;
     background-position: center center!important;
 }
-div#icons i {
-    margin-right: 8px;
+div#icons svg {
+    margin-right: 5px;
+    height: 24px;
+    width: 24px;
 }
-div#icons i:nth-of-type(3n - 2) {
-    color: #ff8a65;
+div#icons svg:nth-of-type(3n - 2) path {
+    fill: #ff8a65;
 }
-div#icons i:nth-of-type(3n - 1) {
-    color: #005F7D;
+div#icons svg:nth-of-type(3n - 1) path {
+    fill: #005F7D;
 }
-div#icons i:nth-of-type(3n) {
-    color: #00bcd4;
+div#icons svg:nth-of-type(3n) path {
+    fill: #00bcd4;
 }
 /* –––––––––– FOOTER –––––––––– */
 footer a.btn-large {
