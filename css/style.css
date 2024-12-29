@@ -60,6 +60,12 @@ p {
 #menus .fa-map-marker-alt {
     margin-top: 2px;
 }
+.card-image a.btn-floating svg {
+    padding: 13px;
+}
+.card-image a.btn-floating svg path {
+    fill: #fff;
+}
 .btn.cyan:hover, .btn-large.cyan:hover {
     background: #0097ab!important;
 }
