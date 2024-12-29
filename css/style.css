@@ -170,17 +170,33 @@ section#content {
 	height: 0;
     margin: 0;
     position: absolute;
-    top: -65px;
-    right: 0;
+    top: -56px;
+    right: 14px;
     margin-top: 0;
     color: rgba(0,95,125,0.5);
+    width: 48px;
+    display: flex;
+    justify-content: space-between;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
     background: transparent;
     color: rgba(0,95,125,0.8);
     text-decoration: none;
 }
-.owl-carousel .owl-nav .owl-prev:before {
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+    height: 14px;
+    width: 14px;
+    border-bottom: 2px solid;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    transform: rotate(45deg);
+    border-left: 2px solid;
+}
+.owl-carousel .owl-nav button.owl-next {
+    transform: rotate(-45deg);
+    border-right: 2px solid;
+}
+/* .owl-carousel .owl-nav .owl-prev:before {
   font-family: "Font Awesome 5 Pro";
   content: "\f053";
   font-size: 20px;
@@ -198,8 +214,8 @@ section#content {
   right: 0px;
   height: auto;
   padding: 0 7.5px;
-    margin: 0 7.5px;
-}
+  margin: 0 7.5px;
+} */
 .owl-stage {
     display: flex;
 }
@@ -207,7 +223,7 @@ section#content {
     padding-bottom: 15px;
 }
 .card {
-    border-radius: 0 20px;
+    border-radius: 4px;
     overflow: hidden;
     height: 100%;
     margin: 0;
